@@ -1,23 +1,26 @@
-//___________________
-//Dependencies
-//___________________
+// =======================================
+//              DEPENDENCIES
+// =======================================
 const express = require('express');
 const methodOverride = require('method-override');
 const mongoose = require('mongoose');
 const app = express();
 const db = mongoose.connection;
 require('dotenv').config()
-//___________________
-//Port
-//___________________
-// Allow use of Heroku's port or your own local port, depending on the environment
-const PORT = process.env.PORT || 3003;
 
-//___________________
-//Database
-//___________________
+
+// =======================================
+//              PORT
+// =======================================
+// Allow use of Heroku's port or your own local port, depending on the environment
+const PORT = process.env.PORT
+
+// =======================================
+//              DATABASE
+// =======================================
 // How to connect to the database either via heroku or locally
 const MONGODB_URI = process.env.MONGODB_URI;
+
 
 // Connect to Mongo &
 // Fix Depreciation Warnings from Mongoose
@@ -28,14 +31,16 @@ mongoose.connect(MONGODB_URI, {
     useFindAndModify: false }
 );
 
-// Error / success
+// =======================================
+//              ERROR/SUCCESS
+// =======================================
 db.on('error', (err) => console.log(err.message + ' is Mongod not running?'));
 db.on('connected', () => console.log('mongo connected: ', MONGODB_URI));
 db.on('disconnected', () => console.log('mongo disconnected'));
 
-//___________________
-//Middleware
-//___________________
+// =======================================
+//              MIDDLEWARE
+// =======================================
 
 //use public folder for static assets
 app.use(express.static('public'));
@@ -48,15 +53,75 @@ app.use(express.json());// returns middleware that only parses JSON - may or may
 app.use(methodOverride('_method'));// allow POST, PUT and DELETE from a form, allows us to delete, put route
 
 
-//___________________
-// Routes
-//___________________
+// =======================================
+//              ROUTES
+// =======================================
 //localhost:3000
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.redirect('index.ejs');
 });
 
-//___________________
-//Listener
-//___________________
+/* ===========
+GET ROUTE
+============= */
+//NEW
+
+
+
+
+
+/* ===========
+POST ROUTE
+============= */
+//CREATE
+
+
+
+
+
+
+/* ===========
+GET ROUTE
+============= */
+//SHOW
+
+
+
+
+
+/* ===========
+GET ROUTE
+============= */
+//INDEX
+
+
+
+
+/* ===========
+PUT ROUTE
+============= */
+//UPDATE
+
+
+
+
+/* ===========
+GET ROUTE
+============= */
+//EDIT
+
+
+
+
+/* ===========
+DELETE ROUTE
+============= */
+//DELETE
+
+
+
+
+// =======================================
+//              LISTENER
+// =======================================
 app.listen(PORT, () => console.log('Listening on port:', PORT));
