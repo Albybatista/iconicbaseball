@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const bBallSchema = new mongoose.Schema({
+const baseballSchema = new mongoose.Schema({
     img: {
         type: String,
         required: true
@@ -10,12 +10,16 @@ const bBallSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    date: {
+        type: String,
+        required: true
+    },
     description: {
         type: String,
         required: true
     }
 });
 
-const Baseball = mongoose.model('Baseball', bBallSchema);
+const Baseball = mongoose.model('Baseball', baseballSchema);
 
 module.exports = Baseball;

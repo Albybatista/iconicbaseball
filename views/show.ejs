@@ -9,5 +9,18 @@
 <body>
     <h1>This is the Show Page. Moments</h1>
     <%- include('./partials/imgDiv.ejs') %>
+    <div class="container">
+        The <%=baseball.name%> is <%=baseball.color%>.
+        <button type="button" name="button"><a href="/baseballs/<%=baseball._id%>/edit">Edit</a></button>
+        <br>
+        <br>
+        <form action="/baseballs/<%=baseball._id%>?_method=DELETE" method="POST">
+            <input type="submit" value="DELETE" />
+        </form>
+        <br>
+        <button type="button" name="button">
+            <a href="/baseballs">Back</a>
+        </button>
+    </div>
 </body>
 </html>

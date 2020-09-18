@@ -9,5 +9,16 @@
 <body>
     <h1>This is the New Page. Add a New Moment!</h1>
     <%- include('./partials/imgDiv.ejs') %>
+    <div class="container">
+        <form action="/baseballs" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required />
+            <label for="color">Color:</label>
+            <input type="text" name="color" />
+            <br />
+            <br>
+            <input type="submit" value="Submit">
+            <form>
+    </div>
 </body>
 </html>
