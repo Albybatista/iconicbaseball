@@ -9,13 +9,14 @@
     <h1>Edit Page. Recreate History!</h1>
     <div class="container">
     <form action="/baseballs/<%=baseball.id%>?_method=PUT" method="POST">
-       Title: <input type="text" name="name" value="<%=baseball.title%>" /><br/>
+       Title: <input type="text" name="title" value="<%=baseball.title%>" /><br/>
        Description: <input type="text" name="description" value="<%=baseball.description%>" /><br/>
+       <!-- <button type="button" name="button"> -->
+        <form action="/baseballs"> <input type="submit" value="Back" />
+       <!-- </button> -->
         <input type="submit" value="Submit">
-        <form>
-            <button type="button" name="button">
-            <a href="/baseballs">Back</a>
-            </button>
+            
+        </form>
     </div>
 </body>
 </html>

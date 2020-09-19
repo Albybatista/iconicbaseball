@@ -6,17 +6,24 @@
     <title></title>
 </head>
 <body>
-    <h1>This is the New Page. Add a New Moment!</h1>
+    <h1>New Page. Create a New Moment!</h1>
     <div class="container">
         <form action="/baseballs" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" name="name" required />
-            <label for="color">Color:</label>
-            <input type="text" name="color" />
-            <br />
+            <label for="img">Image: </label>
+            <input type="image" name="image" required />
+
+            <label for="title">Title: </label>
+            <input type="text" name="title" />
+
+            <label for="date">Date: </label>
+            <input type="text" name="date" required />
+
+            <label for="description">Description: </label>
+            <input type="text" name="description" required />
+            <br/>
             <br>
-            <input type="submit" value="Submit">
-            <form>
+            <input type="submit" value="Create">
+        </form>
     </div>
 </body>
 </html>

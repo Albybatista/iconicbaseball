@@ -17,22 +17,13 @@ module.exports = baseballs;
 POST ROUTE - SEED
 ================== */
 //SEED
-// baseballs.get('/seed/newseeds', (req, res) => {
-// Baseball.create(baseball, (err, data) => {
-//     res.redirect('/baseball')
+// baseballs.get('/seed', (req, res) => {
+//     Baseball.create(baseballSeeds,
+//         (err, data) => {
+//             console.log(data);
+//             res.redirect('/baseballs')
+//         })
 // })
-// Baseball.insertMany(baseballSeeds, (err, data) => {
-//     console.log(data);
-//     res.redirect('/baseballs')
-// })
-// })
-baseballs.get('/seed', (req, res) => {
-    Baseball.insertMany(baseballSeeds,
-        (err, data) => {
-            console.log(data);
-            res.redirect('/baseballs')
-        })
-})
 
 
 /* ===========
@@ -75,6 +66,7 @@ GET ROUTE
 //EDIT
 baseballs.get('/:id/edit', (req, res) => {
     Baseball.findById(req.params.id, (error, foundBaseball) => {
+        console.log(foundBaseball);
         res.render('edit.ejs', {
             baseball: foundBaseball
         })
@@ -87,6 +79,7 @@ GET ROUTE
 //SHOW
 baseballs.get('/:id', (req, res) => {
     Baseball.findById(req.params.id, (error, foundBaseball) => {
+        console.log(foundBaseball);
         res.render('show.ejs', {
             baseball: foundBaseball
         })
