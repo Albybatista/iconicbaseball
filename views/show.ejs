@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <%- include('./partials/head.ejs') %>
     <title></title>
 </head>
 <body>
     <h1>This is the Show Page. Moments</h1>
-    <%- include('./partials/imgDiv.ejs') %>
     <div class="container">
         The <%=baseball.name%> is <%=baseball.color%>.
         <button type="button" name="button"><a href="/baseballs/<%=baseball._id%>/edit">Edit</a></button>

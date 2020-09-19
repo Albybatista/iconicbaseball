@@ -1,9 +1,7 @@
 # project2
 
-astros cheating
-barry bonds
-brawls?
+ortiz after boston bombing
 subway series world series
-henderson
-hank aaron
+earthquake athletics
+moneyball athletics
 

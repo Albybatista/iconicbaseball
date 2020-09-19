@@ -1,6 +1,6 @@
 const express = require('express');
 const Baseball = require('../models/schema.js');
-
+const baseballSeeds = require('../models/seed.js');
 const baseballs = express.Router()
 
 module.exports = baseballs;
@@ -17,17 +17,23 @@ module.exports = baseballs;
 POST ROUTE - SEED
 ================== */
 //SEED
-const baseballSeeds = require('../models/seed.js');
-baseballs.get('/seed/newseeds', (req, res) => {
-    // Baseball.create(baseball, (err, data) => {
-    //     res.redirect('/baseball')
-    // })
-Baseball.insertMany(baseballSeeds, (err, data) => {
-    console.log(data);
-    res.redirect('/baseballs')
+// baseballs.get('/seed/newseeds', (req, res) => {
+// Baseball.create(baseball, (err, data) => {
+//     res.redirect('/baseball')
+// })
+// Baseball.insertMany(baseballSeeds, (err, data) => {
+//     console.log(data);
+//     res.redirect('/baseballs')
+// })
+// })
+baseballs.get('/seed', (req, res) => {
+    Baseball.insertMany(baseballSeeds,
+        (err, data) => {
+            console.log(data);
+            res.redirect('/baseballs')
+        })
 })
 
-})
 
 /* ===========
 DELETE ROUTE

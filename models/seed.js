@@ -3,161 +3,161 @@ module.exports = [
         img: "public/Arod.jpg",
         title: "I Don't Like Your Attitude",
         date: "July 24th, 2004",
-        description: ""
+        description: "Stiff arms are commonplace in football, but that didn't stop Jason Varitek. In one of the oldest rivalry in sports, they both spark an all out team brawl after Alex Rodriguez is hit by a pitch and yells obscenities at the Red Sox players."
     },
     {
         img: "public/arodgriff.jpg",
         title: "A-Rod & Ken Griffey Jr. Fill Seattle with Optimism",
         date: "1996-1999",
-        description: ""
+        description: "Part of an exciting core in Seattle, Alex Rodriguez and Ken Griffey Jr. unfortunately didn't play long enough to make any impactful championship runs. The shook the baseball world with their flair and dedication to the game and left a lot of us thinking of what could had been."
 
     },
     { 
         img: "public/Atlanta3.png",
         title: "The Atlana Big Three",
         date: "1993-2002",
-        description: ""
+        description: "Tom Glavine, John Smoltz, and Gregg Maddux. These three future Hall of Fame pitchers anchored the Atlanta starting rotation for almost a decade while taking the baseball world by storm."
 
     },
     {
         img: "public/BloodySock.jpg",
         title: "Is it Ketchup?",
-        date: "",
-        description: ""
+        date: "October 19th, 2004",
+        description: "In what became known as the 'bloody sock game', Curt Schilling pitches an amazing 7 innnings allowing just one run post ankle surgery. This turns out what would be the Red Sox's first championship in 86 years. There were rumors and speculation that that it might've been ketchup."
 
     },
     {
         img: "public/Boone.jpg",
         title: "Throw Me a Boone",
-        date: "",
-        description: ""
+        date: "October 16th, 2003",
+        description: "Aaron Boone sneaks in an 11th inning walk off home run in Game 7 of the 2003 ALCS against knuckleballer Tim Wakefield extending the 'Curse of the Bambino' at the time."
 
     },
     {
         img: "public/Boston2004.jpg",
-        title: "",
-        date: "",
-        description: ""
+        title: "Curse No Mo'",
+        date: "October 27th, 2004",
+        description: "The Boston Red Sox, after being the first team to come back against the Yankees from an 0-3 series deficit, go all the way to win the championship for the first time since 1918, reversing what was known as the 'Curse of the Bambino'."
 
     },
     {
         img: "public/CubsWin.jpg",
-        title: "",
-        date: "",
-        description: "Back to The Future almost called it right!"
+        title: "Back to Chicago -- After 108 Years",
+        date: "November 2nd, 2016",
+        description: "Back to the Future almost called it right! One year after their prediction in the motion picture, the Cubs finally win their first World Series in 108 years in a hard fought series against the Cleveland Indians."
 
     },
     {
         img: "public/Jackie.jpg",
         title: "More Than Color",
-        date: "",
-        description: ""
+        date: "April 15th, 1947",
+        description: "Often called as the moment that broke the color barrier in baseball, Jackie Robinson's skillset was just simply too good to keep off the field. Robinson would not disappoint and continued to excel for years to come showing that he belongs and serving as a influential figure to the civil right movement."
 
     },
     {
         img: "public/Jeter.jpg",
-        title: "",
-        date: "",
-        description: ""
+        title: "The Captain",
+        date: "1995-2014",
+        description: "Always known as an exemplary figure known for his defense, leadership, and clutch moments, Derek Jeter never failed to amaze on the big stage."
 
     },
     {
         img: "public/joeyBats.jpg",
-        title: "Joey Bats Tossed His Bat?",
-        date: "",
-        description: ""
+        title: "The Bat Flip Heard 'round the World",
+        date: "October 14th, 2015",
+        description: "After a hard fought game, 'Joey Bats' Jose Bautista shows off after hitting a home run to give the Blue Jays the lead in the playoffs heating up an already tense rivalry against the Texas Rangers."
 
     },
     {
         img: "public/MannyBatFlip.jpeg",
         title: "Manny Bein' Manny",
-        date: "",
-        description: ""
+        date: "October 5th, 2007",
+        description: "One of the more charismatic figures in baseball, Manny Ramirez wins it for the Red Sox with a walk off home run in the 2007 playoffs."
 
     },
     {
         img: "public/Mariano.jpg",
-        title: "",
-        date: "",
-        description: ""
+        title: "What Gets Opened Must Get Closed",
+        date: "September 19th, 2011",
+        description: "Often dubbed the greatest closer in baseball, Mariano Rivera cemented his title on this date setting the record for most saves as a relief pitcher passing Trevor Hoffman."
 
     },
     {
         img: "public/Mike_Piazza911.jpg",
-        title: "",
-        date: "",
-        description: ""
+        title: "United We Stand",
+        date: "September 21st, 2001",
+        description: "In the first New York sports game following 9/11, Mike Piazza hit what would be the game winning home run to provide New York with some happiness in such a dark moment. As Piazza said put it, 'It was just this incredible release of emotion and I think, you know, it became evidently clear that people just wanted to cheer about something.'"
         
     },
     {
         img: "public/NolanRyan.jpg",
         title: "I Hate Wearing White",
-        date: "",
+        date: "August 4th, 1993",
         description: "In his last year, Nolan Ryan pegged Robin Ventura leading to an all out brawl between both teams. Ryan quickly found himself in the bottom of a pile in which he said he was about to pass out and coundln't breathe. An unlikely hero from the oppposing team, Bo Jackson, helped him up and avoided any further injury."
         
     },
     {
         img: "public/Odor.jpg",
         title: "2020 is Wearing Red & I'm Wearing Blue",
-        date: "",
-        description: ""
+        date: "May 14th, 2016",
+        description: "There are years where we take more of a beating than others. In a rivalry that only continued to escalate after a few hit by pitches, over aggressive slides, and Jose Bautista's infamous bat flip, Rougned Odor clocked Bautista harder than he's ever hit a baseball."
         
     },
     {
         img: "public/peteRecord.jpg",
         title: "Polar Bear Freezes Over NY",
         date: "September 27th, 2019",
-        description: ""
+        description: "One year after Aaron Judge sets the rookie home run record, Pete Alonso did it better the following season after clobbering his 53rd home run in Queens."
         
     },
 
     {
         img: "public/Randy.jpg",
-        title: "Nobody's Perfect is a Myth",
-        date: "",
-        description: ""
+        title: "Nobody is Perfect is a Myth",
+        date: "May 18th, 2004",
+        description: "'The Big Unit', Randy Johnson, pitches a perfect game for the Arizona Diamondbacks behind a stellar performance where he struck out 13 batters."
 
     },
     {
         img: "public/sosamcgwire.jpg",
-        title: "Muscle v. Muscle",
+        title: "Jamba Juicers",
         date: "1998",
-        description: ""
+        description: "They were the inspiration behind Jamba Juice before it was even thought of. Sammy Sosa and Mark McGwire were the talk of the season in which they traded blows for the home run title all year long while also facing their respective teams multiple times."
 
     },
     {
         img: "public/troutDebut.jpg",
         title: "Baseball is in Troutble",
-        date: "",
-        description: ""
+        date: "July 8th, 2011",
+        description: "A 5-tool player and the future face of baseball takes the field and the baseball world hardly knows what is yet to come."
 
     },
     {
         img: "public/aaron.jpg",
-        title: "Hank Aarpm ",
+        title: "Hank Aaron ",
         date: "April 8th, 1974",
         description: "On this date, Hank Aaron surpassed Babe Ruth's all time home run record. A record that stood for so many years before and after. Due to Barry Bond's controversial claim to the number one spot, some still recognize Aaron as the all time leader."
 
     },
     {
         img: "public/altuve.jpg",
-        title: "Not My Buzz-- err, Shirt!",
-        date: "",
-        description: ""
+        title: "Not My Buzz-- err, I mean shirt!",
+        date: "October 20th, 2017",
+        description: "Jose Altuve hits a walk-off home run into orbit in order to send the Astros to the World Series. The footage that ensues after is later evidence of the astros using buzzers under their jerseys in a sign stealing scandal that became known as 'trashgate'. Altuve hugged his jersey tight and was adamant about not getting it torn off by teammates."
 
     },
     {
         img: "public/bonds.jpg",
         title: "The Other Bonds",
         date: "August 7th, 2007",
-        description: ""
+        description: "Barry Bonds surpasses Hank Aaron on the all-time home run list. While some celebrated this, this feat was also met with a lot of controversy and with an asterik. Let's just say we have a different defintion of juice than he does."
 
     },
     {
         img: "public/rickey.jpg",
-        title: "Rickey Henderson Steals the Record!",
+        title: "Rickey Henderson Steals the Show!",
         date: "May 1st, 1991",
-        description: "On this date, Rickey Henderson breaks Lou Brock's stolen bases record of 938."
+        description: "On this date, the speedy and always flashy Rickey Henderson breaks Lou Brock's stolen bases record of 938."
 
     },
     {
