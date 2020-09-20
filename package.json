@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/Albybatista/project2#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "bootstrap-icons": "^1.0.0",
     "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
     "express": "^4.17.1",

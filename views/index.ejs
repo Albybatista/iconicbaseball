@@ -6,25 +6,27 @@
 <body>
     <h1>Index. Iconic Moments in MLB History</h1>
     <div class="container">
-        <ul>
+        
             <% for (let i = 0; i < baseballs.length; i++) { %>
-            <li>
-                <div class="images">
-                <img src="<%=baseballs[i].img%>">
-                </div>
-                <a href="/baseballs/<%=baseballs[i].id%>"><br/>
+            
+                
+            <div class="card mb-3">
+                <img src="<%=baseballs[i].img%>"" class="card-img-top">
+            
+        <a href="/baseballs/<%=baseballs[i].id%>"><br/>
                     <%=baseballs[i].title%>
                 </a><br/>
                 <%=baseballs[i].date%><br/>
                 <%=baseballs[i].description%>
                 <form action="/baseballs/<%=baseballs[i].id%>?_method=DELETE" method="POST">
-                    <input type="submit" value="DELETE" />
+                    <input type="submit" class="btn btn-danger"value="Delete" />
                 </form>
-                <form action="/baseballs/<%=baseballs[i].id%>/edit"><input type="submit" value="Edit" />
+                <form action="/baseballs/<%=baseballs[i].id%>/edit"><input type="submit" class="btn btn-primary" value="Edit"/>
                 </form>
-                </li>
+                
             <% } %>
-        </ul>
+            
+      </div>
     </div>
 </body>
 </html>

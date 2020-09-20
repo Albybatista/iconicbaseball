@@ -7,4 +7,5 @@ moneyball athletics
 willie mays
 bo jackson
 kirk gibson
+roberto clemente
 

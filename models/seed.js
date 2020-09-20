@@ -79,7 +79,7 @@ module.exports = [
         img: "Mariano.jpg",
         title: "What Gets Opened Must Get Closed",
         date: "September 19th, 2011",
-        description: "Often dubbed the greatest closer in baseball, Mariano Rivera cemented his title on this date setting the record for most saves as a relief pitcher passing Trevor Hoffman."
+        description: "Okay, I know this doesn't exactly translate to 'what goes up, must come down, but it was a good try. Often dubbed the greatest closer in baseball, Mariano Rivera cemented his title on this date setting the record for most saves as a relief pitcher passing Trevor Hoffman."
 
     },
     {
@@ -122,19 +122,19 @@ module.exports = [
         img: "sosamcgwire.jpg",
         title: "Jamba Juicers",
         date: "1998",
-        description: "They were the inspiration behind Jamba Juice before it was even thought of. Sammy Sosa and Mark McGwire were the talk of the season in which they traded blows for the home run title all year long while also facing their respective teams multiple times. McGwire finished with 70 home runs to lead the league beating out Sosa who homered 66 times."
+        description: "They were the inspiration behind Jamba Juice before it was even thought of. While also facing their respective teams multiple times, Sammy Sosa and Mark McGwire were the talk of the season in which they traded blows for the home run title all year long. McGwire finished with 70 home runs to lead the league beating out Sosa who homered 66 times."
 
     },
     {
         img: "troutDebut.jpg",
-        title: "Baseball is in Troutble",
+        title: "Baseball is in Trout-ble",
         date: "July 8th, 2011",
         description: "A 5-tool player and the future face of baseball takes the field and the baseball world hardly knows what is yet to come."
 
     },
     {
         img: "aaron.jpg",
-        title: "Hank Aaron ",
+        title: "Aaro-und the Bases",
         date: "April 8th, 1974",
         description: "On this date, Hank Aaron surpassed Babe Ruth's all time home run record. A record that stood for so many years before and after. Due to Barry Bond's controversial claim to the number one spot, some still recognize Aaron as the all time leader."
 
@@ -155,14 +155,14 @@ module.exports = [
     },
     {
         img: "rickey.jpg",
-        title: "Rickey Henderson Steals the Show!",
+        title: "Rickey Henderson steals the show!",
         date: "May 1st, 1991",
         description: "On this date, the speedy and always flashy Rickey Henderson breaks Lou Brock's stolen bases record of 938."
 
     },
     {
         img: "rose.jpeg",
-        title: "Did He Get the Reord? You Betcha'!",
+        title: "Did Pete Rose just hit big? You betcha'!",
         date: "August 10th, 1981",
         description: "On this date, Pete Rose broke Stan Musial's record for most hits by a National Leaguer. A controversial figure, Pete Rose remains permanently banned from baseball due to his gambling on games as a player. "
 
