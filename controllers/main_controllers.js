@@ -17,13 +17,13 @@ module.exports = baseballs;
 POST ROUTE - SEED
 ================== */
 //SEED
-baseballs.get('/seed', (req, res) => {
-    Baseball.create(baseballSeeds,
-        (err, data) => {
-            console.log(data);
-            res.redirect('/baseballs')
-        })
-})
+// baseballs.get('/seed', (req, res) => {
+//     Baseball.create(baseballSeeds,
+//         (err, data) => {
+//             console.log(data);
+//             res.redirect('/baseballs')
+//         })
+// })
 
 
 /* ===========
@@ -56,7 +56,7 @@ baseballs.put('/:id', (req, res) => {
 GET ROUTE
 ============= */
 //NEW
-baseballs.get('/new', (req, res) => {
+baseballs.get('/:id/new', (req, res) => {
     res.render('new.ejs')
 })
 

@@ -6,10 +6,24 @@ module.exports = [
         description: "Stiff arms are commonplace in football, but that didn't stop Jason Varitek. In one of the oldest rivalry in sports, they both spark an all out team brawl after Alex Rodriguez is hit by a pitch and yells obscenities at the Red Sox players."
     },
     {
+        img: "Odor.jpg",
+        title: "2020 is Wearing Red & I'm Wearing Blue",
+        date: "May 14th, 2016",
+        description: "There are years where we take more of a beating than others. In a rivalry that only continued to escalate after a few hit by pitches, over aggressive slides, and Jose Bautista's infamous bat flip, Rougned Odor clocked Bautista harder than he's ever hit a baseball."
+
+    },
+    {
         img: "arodgriff.jpg",
         title: "A-Rod & Ken Griffey Jr. Fill Seattle with Optimism",
         date: "1996-1999",
         description: "Part of an exciting core in Seattle, Alex Rodriguez and Ken Griffey Jr. unfortunately didn't play long enough to make any impactful championship runs. The shook the baseball world with their flair and dedication to the game and left a lot of us thinking of what could had been."
+
+    },
+    {
+        img: "sosamcgwire.jpg",
+        title: "Jamba Juicers",
+        date: "1998",
+        description: "They were the inspiration behind Jamba Juice before it was even thought of. While also facing their respective teams multiple times, Sammy Sosa and Mark McGwire were the talk of the season in which they traded blows for the home run title all year long. McGwire finished with 70 home runs to lead the league beating out Sosa who homered 66 times."
 
     },
     { 
@@ -24,6 +38,26 @@ module.exports = [
         title: "Is it Ketchup?",
         date: "October 19th, 2004",
         description: "In what became known as the 'bloody sock game', Curt Schilling pitches an amazing 7 innnings allowing just one run post ankle surgery. This turns out what would be the Red Sox's first championship in 86 years. There were rumors and speculation that that it might've been ketchup."
+
+    },
+    {
+        img: "Mike_Piazza911.jpg",
+        title: "United We Stand",
+        date: "September 21st, 2001",
+        description: "In the first New York sports game following 911, Mike Piazza hit what would be the game winning home run to provide New York with some happiness in such a dark moment. As Piazza said put it, 'It was just this incredible release of emotion and I think, you know, it became evidently clear that people just wanted to cheer about something.'"
+    },
+    {
+        img: "NolanRyan.jpg",
+        title: "I Hate Wearing White",
+        date: "August 4th, 1993",
+        description: "In his last year, Nolan Ryan pegged Robin Ventura leading to an all out brawl between both teams. Ryan quickly found himself in the bottom of a pile in which he said he was about to pass out and coundln't breathe. An unlikely hero from the oppposing team, Bo Jackson, helped him up and avoided any further injury."
+
+    },
+    {
+        img: "altuve.jpg",
+        title: "Not My Buzz-- err, I mean shirt!",
+        date: "October 20th, 2017",
+        description: "Jose Altuve hits a walk-off home run into orbit in order to send the Astros to the World Series. The footage that ensues after is later evidence of the astros using buzzers under their jerseys in a sign stealing scandal that became known as 'trashgate'. Altuve hugged his jersey tight and was adamant about not getting it torn off by teammates."
 
     },
     {
@@ -83,46 +117,17 @@ module.exports = [
 
     },
     {
-        img: "Mike_Piazza911.jpg",
-        title: "United We Stand",
-        date: "September 21st, 2001",
-        description: "In the first New York sports game following 911, Mike Piazza hit what would be the game winning home run to provide New York with some happiness in such a dark moment. As Piazza said put it, 'It was just this incredible release of emotion and I think, you know, it became evidently clear that people just wanted to cheer about something.'"
-        
-    },
-    {
-        img: "NolanRyan.jpg",
-        title: "I Hate Wearing White",
-        date: "August 4th, 1993",
-        description: "In his last year, Nolan Ryan pegged Robin Ventura leading to an all out brawl between both teams. Ryan quickly found himself in the bottom of a pile in which he said he was about to pass out and coundln't breathe. An unlikely hero from the oppposing team, Bo Jackson, helped him up and avoided any further injury."
-        
-    },
-    {
-        img: "Odor.jpg",
-        title: "2020 is Wearing Red & I'm Wearing Blue",
-        date: "May 14th, 2016",
-        description: "There are years where we take more of a beating than others. In a rivalry that only continued to escalate after a few hit by pitches, over aggressive slides, and Jose Bautista's infamous bat flip, Rougned Odor clocked Bautista harder than he's ever hit a baseball."
-        
-    },
-    {
         img: "peteRecord.jpg",
         title: "Polar Bear Freezes Over NY",
         date: "September 27th, 2019",
         description: "One year after Aaron Judge sets the rookie home run record, Pete Alonso did it better the following season after clobbering his 53rd home run in Queens."
         
     },
-
     {
         img: "Randy.jpg",
         title: "Nobody is Perfect is a Myth",
         date: "May 18th, 2004",
         description: "'The Big Unit', Randy Johnson, pitches a perfect game for the Arizona Diamondbacks behind a stellar performance where he struck out 13 batters."
-
-    },
-    {
-        img: "sosamcgwire.jpg",
-        title: "Jamba Juicers",
-        date: "1998",
-        description: "They were the inspiration behind Jamba Juice before it was even thought of. While also facing their respective teams multiple times, Sammy Sosa and Mark McGwire were the talk of the season in which they traded blows for the home run title all year long. McGwire finished with 70 home runs to lead the league beating out Sosa who homered 66 times."
 
     },
     {
@@ -137,13 +142,6 @@ module.exports = [
         title: "Aaro-und the Bases",
         date: "April 8th, 1974",
         description: "On this date, Hank Aaron surpassed Babe Ruth's all time home run record. A record that stood for so many years before and after. Due to Barry Bond's controversial claim to the number one spot, some still recognize Aaron as the all time leader."
-
-    },
-    {
-        img: "altuve.jpg",
-        title: "Not My Buzz-- err, I mean shirt!",
-        date: "October 20th, 2017",
-        description: "Jose Altuve hits a walk-off home run into orbit in order to send the Astros to the World Series. The footage that ensues after is later evidence of the astros using buzzers under their jerseys in a sign stealing scandal that became known as 'trashgate'. Altuve hugged his jersey tight and was adamant about not getting it torn off by teammates."
 
     },
     {

@@ -5,16 +5,25 @@
     <title></title>
 </head>
 <body>
-    <h1>Edit Page. Recreate History!</h1>
     <div class="container">
-    <form action="/baseballs/<%=baseball.id%>?_method=PUT" method="POST">
-       Title: <input type="text" name="title" value="<%=baseball.title%>" /><br/>
-       Description: <input type="text" name="description" value="<%=baseball.description%>" /><br/>
+        <h1 class="text-center">Change History</h1>
+    <form action="/baseballs/<%=baseball.id%>?_method=PUT" method="POST" class="form-group">
+       <label for="title">Title</label>
+       <input type="text" class="form-control" id="titleInput" placeholder="New title for selected moment" name="title"/>
+       <br/>
+       <label for="date">Date</label>
+       <input type="text" class="form-control" id="dateInput" placeholder="New date for selected moment"
+           name="date" />
+           <br/>
+       <label for="editBox">Description</label> 
+       <textarea class="form-control" id="editBox" rows="3" input type="text"
+           placeholder="New description for selected moment" name="description">
+       </textarea>
+       <br/>
        <!-- <button type="button" name="button"> -->
-        <form action="/baseballs"> <input type="submit" class="btn btn-secondary" value="Back" />
+    <form action="/baseballs"> <input type="submit" class="btn btn-secondary" value="Back" />
        <!-- </button> -->
         <input type="submit" class="btn btn-success" value="Submit">
-            
         </form>
     </div>
 </body>

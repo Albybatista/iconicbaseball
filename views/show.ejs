@@ -5,20 +5,31 @@
     <title></title>
 </head>
 <body>
-    <h1>This is the Show Page. Moments</h1>
-    <div class="container">
-        The <%=baseball.title%> is <%=baseball.img%>.
-        <!-- <button type="button" class="btn btn-primary" name="button"><a href="/baseballs/<%=baseball._id%>/edit">Edit</a></button> -->
+    <div class="text-center" class="container">
+         <h1 class="text-center">Memory Lane</h1>
+         <div class="card mb-3">
+        <img src="/<%=baseball.img%>" class="card-img-top">
+        <br />
+        <div class="card-body">
+        <h4 class="card-title"><%=baseball.title%></h4>
+        <br/>
+        <h6 class="card-text"><%=baseball.date%></h6>
+        <br/>
+        <p class="card-text"><%=baseball.description%></p>
         <br>
         <br>
         <form action="/baseballs/<%=baseball._id%>?_method=DELETE" method="POST">
             <input type="submit" class="btn btn-danger" value="Delete"/>
-        <br>
+            </form>
+        <br/>
         <form action="/baseballs"> <input type="submit" class="btn btn-secondary" value="Back"/>
         </form>
+        <br/>
         <form action="/baseballs/<%=baseball._id%>/edit">
 <input type="submit" class="btn btn-primary" value="Edit">
         </form>
+        </div>
+        </div>
     </div>
 </body>
 </html>
