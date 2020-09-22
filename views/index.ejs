@@ -4,8 +4,14 @@
     <%- include('./partials/head.ejs') %>
 </head>
 <body>
-    <div class="container">
+    <div id="blah">
+    <div class="alert alert-info" role="alert">
+        
         <h1 class="text-center">Iconic Moments in MLB History</h1>
+        <%- include('./partials/nav.ejs') %>
+    </div>
+    <div class="container"></div>
+    
 
         <% for (let i = 0; i < baseballs.length; i++) { %>   
     <div class="card mb-3">
@@ -23,6 +29,7 @@
         <form action="/baseballs/<%=baseballs[i].id%>?_method=DELETE" method="POST">
             <input type="submit" class="btn btn-danger"value="Delete" />
         </form>
+        <div class="divider" />
         <br/>
         <br/>
         <form action="/baseballs/<%=baseballs[i].id%>/edit">
@@ -35,6 +42,7 @@
         </div>
     </div>
         <% } %>     
+</div>
 </div>
 </body>
 </html>

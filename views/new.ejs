@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <%- include('./partials/head.ejs') %>
-    <title></title>
+    <title>Create a New Moment</title>
 </head>
 <body>
     <div class="container">
@@ -15,21 +15,20 @@
             <label for="title">Title</label>
             <input type="text" class="form-control" id="titleInput" placeholder="Name your moment"
                 name="title" />
-            <br />
+            <br/>
             <label for="date">Date</label>
             <input type="text" class="form-control" id="dateInput" placeholder="Ex. August 14th, 2020"
                 name="date" />
             <br />
             <label for="description">Description</label>
-            <textarea class="form-control" type="text" rows="3"  name="description"
-                placeholder="Description for created moment">
+            <textarea class="form-control" type="text" rows="3" name="description" placeholder="Description for created moment">
        </textarea>
             <br/>
             <br/>
             <form action="/baseballs"> <input type="submit" class="btn btn-secondary" value="Back" />
             <input type="submit" class="btn btn-success" value="Create" >
         </form>
-        
+    </div>
     </div>
 </body>
 </html>

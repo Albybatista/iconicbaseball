@@ -1,11 +1,8 @@
 # project2
 
-ortiz after boston bombing
+
+Create profile, login & out
+Create a collection of moments
+API with ticketmaster
 subway series world series
-earthquake athletics
-moneyball athletics
-willie mays
-bo jackson
-kirk gibson
-roberto clemente
 

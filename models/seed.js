@@ -10,21 +10,18 @@ module.exports = [
         title: "2020 is Wearing Red & I'm Wearing Blue",
         date: "May 14th, 2016",
         description: "There are years where we take more of a beating than others. In a rivalry that only continued to escalate after a few hit by pitches, over aggressive slides, and Jose Bautista's infamous bat flip, Rougned Odor clocked Bautista harder than he's ever hit a baseball."
-
     },
     {
         img: "arodgriff.jpg",
         title: "A-Rod & Ken Griffey Jr. Fill Seattle with Optimism",
         date: "1996-1999",
         description: "Part of an exciting core in Seattle, Alex Rodriguez and Ken Griffey Jr. unfortunately didn't play long enough to make any impactful championship runs. The shook the baseball world with their flair and dedication to the game and left a lot of us thinking of what could had been."
-
     },
     {
         img: "sosamcgwire.jpg",
         title: "Jamba Juicers",
         date: "1998",
         description: "They were the inspiration behind Jamba Juice before it was even thought of. While also facing their respective teams multiple times, Sammy Sosa and Mark McGwire were the talk of the season in which they traded blows for the home run title all year long. McGwire finished with 70 home runs to lead the league beating out Sosa who homered 66 times."
-
     },
     { 
         img: "Atlanta3.png",

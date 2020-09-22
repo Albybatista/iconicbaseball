@@ -57,6 +57,10 @@ app.use(methodOverride('_method'));// allow POST, PUT and DELETE from a form, al
 app.use('/baseballs', bBallControllers)
 //link to controllers
 
+app.get('/', (req, res) => {
+    res.redirect('/baseballs')
+})
+
 // =======================================
 //              LISTENER
 // =======================================
