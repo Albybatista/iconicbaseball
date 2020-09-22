@@ -5,29 +5,39 @@
     <title>Create a New Moment</title>
 </head>
 <body>
+    <div id="intro" class="view">
+        <div class="full-bg-img">
     <div class="container">
-        <h1 class="text-center">Create a New Moment</h1>
+        <div class="text-center">
+        <h1 class="display-4 font-bold white-text mb-2">Create a New Moment</h1>
+        </div>
+        <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
         <form action="/baseballs" method="POST" class="form-group">
-            <label for="image">Image</label>
+            <label for="image" class="white-text">Image</label>
             <input type="text" class="form-control" id="titleInput" placeholder="Image URL" name="image" />
             <br/>
 
-            <label for="title">Title</label>
+            <label for="title" class="white-text">Title</label>
             <input type="text" class="form-control" id="titleInput" placeholder="Name your moment"
                 name="title" />
             <br/>
-            <label for="date">Date</label>
+            <label for="date" class="white-text">Date</label>
             <input type="text" class="form-control" id="dateInput" placeholder="Ex. August 14th, 2020"
                 name="date" />
             <br />
-            <label for="description">Description</label>
+            <label for="description" class="white-text">Description</label>
             <textarea class="form-control" type="text" rows="3" name="description" placeholder="Description for created moment">
        </textarea>
             <br/>
             <br/>
-            <form action="/baseballs"> <input type="submit" class="btn btn-secondary" value="Back" />
+            <div id="newbtns">
+        <form action="/baseballs"> 
+            <input type="submit" class="btn btn-secondary" value="Back" />
             <input type="submit" class="btn btn-success" value="Create" >
         </form>
+        </div>
+    </div>
+    </div>
     </div>
     </div>
 </body>

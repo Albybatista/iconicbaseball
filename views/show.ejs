@@ -5,10 +5,18 @@
     <title></title>
 </head>
 <body>
+    <div class="alert alert-info" role="alert">
+    <h1 class="text-center">Memory Lane</h1>
+    <%- include('./partials/nav.ejs') %>
+    </div>
     <div class="text-center" class="container">
-         <h1 class="text-center">Memory Lane</h1>
+        
          <div class="card mb-3">
+        <div class="animated">
+            <div class="flip">
         <img src="/<%=baseball.img%>" class="card-img-top">
+        </div>
+        </div>
         <br />
         <div class="card-body">
         <h4 class="card-title"><%=baseball.title%></h4>
@@ -18,16 +26,20 @@
         <p class="card-text"><%=baseball.description%></p>
         <br>
         <br>
+        <div id="showbtns">
         <form action="/baseballs/<%=baseball._id%>?_method=DELETE" method="POST">
             <input type="submit" class="btn btn-danger" value="Delete"/>
             </form>
-        <br/>
+        &nbsp;
+        &nbsp;
         <form action="/baseballs"> <input type="submit" class="btn btn-secondary" value="Back"/>
         </form>
-        <br/>
+        &nbsp;
+        &nbsp;
         <form action="/baseballs/<%=baseball._id%>/edit">
 <input type="submit" class="btn btn-primary" value="Edit">
         </form>
+        </div>
         </div>
         </div>
     </div>

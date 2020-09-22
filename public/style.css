@@ -1,11 +1,45 @@
-/* .dexbtns {
+ .dexbtns {
     display: flex;
-    margin-right:​16px
+    /* justify-content: flex-end; */
 }
 
-.divider {
-    width: 5px;
-    height: auto;
-    display: inline-block;
-    margin-right:​16px
-} */
+#showbtns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+html,
+body,
+header,
+nav,
+#intro {
+    height: 100%;
+   
+}
+
+#intro {
+     background: url('ATT_Park.jpg')no-repeat center center fixed;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+html,
+body,
+header,
+nav,
+#intro1 {
+    height: 100%;
+
+}
+#intro1 {
+    background: url('baseballpic.jpeg')no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#newbtns, 
+#editbtns {
+    display: flex;
+    justify-content: flex-end;
+}
+

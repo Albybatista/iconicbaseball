@@ -4,7 +4,6 @@
     <%- include('./partials/head.ejs') %>
 </head>
 <body>
-    <div id="blah">
     <div class="alert alert-info" role="alert">
         
         <h1 class="text-center">Iconic Moments in MLB History</h1>
@@ -15,7 +14,9 @@
 
         <% for (let i = 0; i < baseballs.length; i++) { %>   
     <div class="card mb-3">
+        <div class="view overlay zoom">
         <img src="<%=baseballs[i].img%>" class="card-img-top">
+        </div>
     <div class="card-body">
         <a href="/baseballs/<%=baseballs[i].id%>">
         <br/>
@@ -29,12 +30,13 @@
         <form action="/baseballs/<%=baseballs[i].id%>?_method=DELETE" method="POST">
             <input type="submit" class="btn btn-danger"value="Delete" />
         </form>
-        <div class="divider" />
-        <br/>
-        <br/>
+        &nbsp;
+        &nbsp;
         <form action="/baseballs/<%=baseballs[i].id%>/edit">
             <input type="submit" class="btn btn-primary" value="Edit"/>
         </form>
+        &nbsp;
+        &nbsp;
         <form action="/baseballs/<%=baseballs[i].id%>/new">
             <input type="submit" class="btn btn-success" class="shadow-sm p-3 mb-5 bg-white rounded" value="Create" />
         </form>
@@ -44,5 +46,92 @@
         <% } %>     
 </div>
 </div>
+<!-- Footer -->
+<footer class="page-footer font-small teal pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+
+                <!-- Content -->
+                <h5 class="text-uppercase">Iconic Moments in Baseball</h5>
+                <p>Thank you for visiting our site! Follow us on the socials and feel free to reach out at any given time for any comments, questions, or concerns. Until next time! </p>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+                <h5 class="text-uppercase">Information</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#!">Legal Notices</a>
+                    </li>
+                    <li>
+                        <a href="#!">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#!">Terms of Use</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+                <h5 class="text-uppercase">Stay Connected</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#!">Help</a>
+                    </li>
+                    <li>
+                        <a href="#!">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#!">Socials</a>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="/baseballs">Iconic Baseball</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 </body>
 </html>

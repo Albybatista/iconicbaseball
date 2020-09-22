@@ -1,6 +1,6 @@
 module.exports = [
     {
-        img: "Arod.jpg",
+        img: "Arod.jpeg",
         title: "I Don't Like Your Attitude",
         date: "July 24th, 2004",
         description: "Stiff arms are commonplace in football, but that didn't stop Jason Varitek. In one of the oldest rivalry in sports, they both spark an all out team brawl after Alex Rodriguez is hit by a pitch and yells obscenities at the Red Sox players."
@@ -118,49 +118,79 @@ module.exports = [
         title: "Polar Bear Freezes Over NY",
         date: "September 27th, 2019",
         description: "One year after Aaron Judge sets the rookie home run record, Pete Alonso did it better the following season after clobbering his 53rd home run in Queens."
-        
+
     },
     {
         img: "Randy.jpg",
         title: "Nobody is Perfect is a Myth",
         date: "May 18th, 2004",
         description: "'The Big Unit', Randy Johnson, pitches a perfect game for the Arizona Diamondbacks behind a stellar performance where he struck out 13 batters."
-
     },
     {
         img: "troutDebut.jpg",
         title: "Baseball is in Trout-ble",
         date: "July 8th, 2011",
         description: "A 5-tool player and the future face of baseball takes the field and the baseball world hardly knows what is yet to come."
-
     },
     {
         img: "aaron.jpg",
         title: "Aaro-und the Bases",
         date: "April 8th, 1974",
         description: "On this date, Hank Aaron surpassed Babe Ruth's all time home run record. A record that stood for so many years before and after. Due to Barry Bond's controversial claim to the number one spot, some still recognize Aaron as the all time leader."
-
     },
     {
         img: "bonds.jpg",
         title: "The Other Bonds",
         date: "August 7th, 2007",
         description: "Barry Bonds surpasses Hank Aaron on the all-time home run list. While some celebrated this, this feat was also met with a lot of controversy and with an asterik. Let's just say we have a different defintion of juice than he does."
-
     },
     {
         img: "rickey.jpg",
         title: "Rickey Henderson steals the show!",
         date: "May 1st, 1991",
         description: "On this date, the speedy and always flashy Rickey Henderson breaks Lou Brock's stolen bases record of 938."
-
     },
     {
         img: "rose.jpeg",
         title: "Did Pete Rose just hit big? You betcha'!",
         date: "August 10th, 1981",
         description: "On this date, Pete Rose broke Stan Musial's record for most hits by a National Leaguer. A controversial figure, Pete Rose remains permanently banned from baseball due to his gambling on games as a player. "
-
-    }
+    }, 
+    {
+        img: "beane.jpg",
+        title: "Moneyball Billy",
+        date: "May 1st, 1991",
+        description: "On this date, the speedy and always flashy Rickey Henderson breaks Lou Brock's stolen bases record of 938."
+    }, 
+    {
+        img: "bojack.jpg",
+        title: "Rickey Henderson steals the show!",
+        date: "May 1st, 1991",
+        description: "On this date, the speedy and always flashy Rickey Henderson breaks Lou Brock's stolen bases record of 938."
+    }, 
+    {
+        img: "clemente68.jpg",
+        title: "Roberto the Idol",
+        date: "May 1st, 1991",
+        description: "On this date, the speedy and always flashy Rickey Henderson breaks Lou Brock's stolen bases record of 938."
+    }, 
+    {
+        img: "earthquake.jpg",
+        title: "",
+        date: "May 1st, 1991",
+        description: "On this date, the speedy and always flashy Rickey Henderson breaks Lou Brock's stolen bases record of 938."
+    }, 
+    {
+        img: "gibson.png",
+        title: "The impossible has happened!",
+        date: "October 15th, 1988",
+        description: "With the fans cheering and on two bad legs, Kirk Gibson was called upon to save the game. Despite facing one of the greatest pitchers in baseball history in Dennis Eckersley, the stadium was filled with optimism. The Dodgers had leaned on Gibson all year but after coming in to pinch hit and with one strike left, things were not looking great for the him and the Dodgers. On the following pitch, however, Gibson pulls off the improbable game-winning 2-run home run to win it in game 1 for the Dodgers. The stadium roars as Gibson hobbles around the bases to get the Dodgers off to a great start in the World Series."
+    }, 
+    {
+        img: "ortizspeech.jpg",
+        title: '"This is Our **** City!"',
+        date: "April 16th, 2013",
+        description: "The day after the Boston Marathon bombing, David Ortiz led a rallying speech before the game sending chills to those in attendance."
+    },
 ];
 

@@ -5,26 +5,37 @@
     <title></title>
 </head>
 <body>
+    <div id="intro1" class="view">
+        <div class="full-bg-img">
+    
     <div class="container">
-        <h1 class="text-center">Change History</h1>
+        <div class="text-center">
+        <h1 class="display-4 font-bold white-text mb-2">Change History</h1>
+        </div>
+        <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+        
     <form action="/baseballs/<%=baseball.id%>?_method=PUT" method="POST" class="form-group">
-       <label for="title">Title</label>
+       <label for="title" class="white-text">Title</label>
        <input type="text" class="form-control" id="titleInput" placeholder="New title for selected moment" name="title"/>
        <br/>
-       <label for="date">Date</label>
+       <label for="date" class="white-text">Date</label>
        <input type="text" class="form-control" id="dateInput" placeholder="New date for selected moment"
            name="date" />
            <br/>
-       <label for="editBox">Description</label> 
+       <label for="editBox" class="white-text">Description</label>
        <textarea class="form-control" id="editBox" rows="3" input type="text"
            placeholder="New description for selected moment" name="description">
        </textarea>
        <br/>
        <!-- <button type="button" name="button"> -->
+           <div id="editbtns">
     <form action="/baseballs"> <input type="submit" class="btn btn-secondary" value="Back" />
        <!-- </button> -->
         <input type="submit" class="btn btn-success" value="Submit">
         </form>
+        </div>
+    </div>
+    </div>
     </div>
 </body>
 </html>
