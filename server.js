@@ -60,6 +60,11 @@ app.use('/baseballs', bBallControllers)
 app.get('/', (req, res) => {
     res.redirect('/baseballs')
 })
+//shows up page when /baseballs on browser
+
+app.get('landing', (req, res) => {
+    res.render('/baseballs/landing')
+})
 
 // =======================================
 //              LISTENER

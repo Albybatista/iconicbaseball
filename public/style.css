@@ -5,7 +5,7 @@
 
 #showbtns {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 }
 
 html,
@@ -37,9 +37,30 @@ nav,
     background-repeat: no-repeat;
 }
 
+html,
+body,
+header,
+nav,
+.landing,
+.carousel-inner {
+    height: 100%;
+    background: no-repeat center center fixed;
+}
+
+
 #newbtns, 
 #editbtns {
     display: flex;
     justify-content: flex-end;
+    /* color: #3a9888 */
 }
-
+.alert,
+.nav-link {
+    background: #3a9888;
+    color: white;
+}
+.card {
+    display: flex;
+    display: inline-block;
+    justify-content: space-around;
+}

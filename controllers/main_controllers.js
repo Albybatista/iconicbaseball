@@ -8,22 +8,18 @@ module.exports = baseballs;
 // =======================================
 //              ROUTES
 // =======================================
-//localhost:3000
-// baseballs.get('/', (req, res) => {
-//     res.send('hello');
-// });
 
 /* ===============
 POST ROUTE - SEED
 ================== */
 //SEED
-baseballs.get('/seed', (req, res) => {
-    Baseball.create(baseballSeeds,
-        (err, data) => {
-            console.log(data);
-            res.redirect('/baseballs')
-        })
-})
+// baseballs.get('/seed', (req, res) => {
+//     Baseball.create(baseballSeeds,
+//         (err, data) => {
+//             // console.log(data);
+//             res.redirect('/baseballs')
+//         })
+// })
 
 
 /* ===========
@@ -66,7 +62,7 @@ GET ROUTE
 //EDIT
 baseballs.get('/:id/edit', (req, res) => {
     Baseball.findById(req.params.id, (error, foundBaseball) => {
-        console.log(foundBaseball);
+        // console.log(foundBaseball);
         res.render('edit.ejs', {
             baseball: foundBaseball
         })
@@ -79,7 +75,7 @@ GET ROUTE
 //SHOW
 baseballs.get('/:id', (req, res) => {
     Baseball.findById(req.params.id, (error, foundBaseball) => {
-        console.log(foundBaseball);
+        // console.log(foundBaseball);
         res.render('show.ejs', {
             baseball: foundBaseball
         })
@@ -92,12 +88,29 @@ GET ROUTE
 // INDEX
 baseballs.get('/', (req, res) => {
     Baseball.find({}, (error, allbaseballs) => {
-        console.log(allbaseballs);
+        // console.log(allbaseballs);
         res.render('index.ejs', {
             baseballs: allbaseballs
         })
     })
 })
+
+/* ===========
+GET ROUTE
+============= */
+//LANDING
+baseballs.get('/:id/landing', (req, res) => {
+    res.render('landing.ejs')
+})
+
+// baseballs.get('/baseballs/landing', (req, res) => {
+//     Baseball.find({}, (error, allbaseballz) => {
+//         console.log(allbaseballs);
+//         res.render('landing.ejs', {
+//             baseballz: allbaseballz
+//         })
+//     })
+// })
 
 /* ===========
 POST ROUTE

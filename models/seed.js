@@ -1,15 +1,15 @@
 module.exports = [
     {
-        img: "Arod.jpeg",
-        title: "I Don't Like Your Attitude",
-        date: "July 24th, 2004",
-        description: "Stiff arms are commonplace in football, but that didn't stop Jason Varitek. In one of the oldest rivalry in sports, they both spark an all out team brawl after Alex Rodriguez is hit by a pitch and yells obscenities at the Red Sox players."
-    },
-    {
         img: "Odor.jpg",
         title: "2020 is Wearing Red & I'm Wearing Blue",
         date: "May 14th, 2016",
         description: "There are years where we take more of a beating than others. In a rivalry that only continued to escalate after a few hit by pitches, over aggressive slides, and Jose Bautista's infamous bat flip, Rougned Odor clocked Bautista harder than he's ever hit a baseball."
+    },
+    {
+        img: "ortizspeech.jpg",
+        title: '"This is Our **** City!"',
+        date: "April 16th, 2013",
+        description: "The day after the Boston Marathon bombing, David Ortiz led a rallying speech before the game sending chills to those in attendance."
     },
     {
         img: "arodgriff.jpg",
@@ -29,6 +29,18 @@ module.exports = [
         date: "1993-2002",
         description: "Tom Glavine, John Smoltz, and Gregg Maddux. These three future Hall of Fame pitchers anchored the Atlanta starting rotation for almost a decade while taking the baseball world by storm. The trio would go on to win a World Series in 1995."
 
+    }, 
+    {
+        img: "Mike_Piazza911.jpg",
+        title: "United We Stand",
+        date: "September 21st, 2001",
+        description: "In the first New York sports game following 911, Mike Piazza hit what would be the game winning home run to provide New York with some happiness in such a dark moment. As Piazza said put it, 'It was just this incredible release of emotion and I think, you know, it became evidently clear that people just wanted to cheer about something.'"
+    },
+    {
+        img: "Arod.jpeg",
+        title: "I Don't Like Your Attitude",
+        date: "July 24th, 2004",
+        description: "Stiff arms are commonplace in football, but that didn't stop Jason Varitek. In one of the oldest rivalry in sports, they both spark an all out team brawl after Alex Rodriguez is hit by a pitch and yells obscenities at the Red Sox players."
     },
     {
         img: "BloodySock.jpg",
@@ -36,12 +48,6 @@ module.exports = [
         date: "October 19th, 2004",
         description: "In what became known as the 'bloody sock game', Curt Schilling pitches an amazing 7 innnings allowing just one run post ankle surgery. This turns out what would be the Red Sox's first championship in 86 years. There were rumors and speculation that that it might've been ketchup."
 
-    },
-    {
-        img: "Mike_Piazza911.jpg",
-        title: "United We Stand",
-        date: "September 21st, 2001",
-        description: "In the first New York sports game following 911, Mike Piazza hit what would be the game winning home run to provide New York with some happiness in such a dark moment. As Piazza said put it, 'It was just this incredible release of emotion and I think, you know, it became evidently clear that people just wanted to cheer about something.'"
     },
     {
         img: "NolanRyan.jpg",
@@ -159,38 +165,32 @@ module.exports = [
     {
         img: "beane.jpg",
         title: "Moneyball Billy",
-        date: "May 1st, 1991",
-        description: "On this date, the speedy and always flashy Rickey Henderson breaks Lou Brock's stolen bases record of 938."
+        date: "2002",
+        description: "A low market team, the Oakland A's have always attempted to compete based on advanced analytics and undervalued players. Manager Billy Beane, who was the mastermind behind it, led the team to a 20 game winning streak that pushed them into the playoffs. Beane continues to be a part of the A's front office today as the general manager."
     }, 
     {
         img: "bojack.jpg",
-        title: "Rickey Henderson steals the show!",
-        date: "May 1st, 1991",
-        description: "On this date, the speedy and always flashy Rickey Henderson breaks Lou Brock's stolen bases record of 938."
+        title: "Bo Jack is Jacked!",
+        date: "August 9th, 1993",
+        description: "Bo Jackson, one of the few multi-sport players, makes an outstanding catch in the outfield. Catches like these were not out of character for Bo who was an athletic specimen and an absolute phenom in the outfield for the Royals."
     }, 
     {
         img: "clemente68.jpg",
         title: "Roberto the Idol",
-        date: "May 1st, 1991",
-        description: "On this date, the speedy and always flashy Rickey Henderson breaks Lou Brock's stolen bases record of 938."
+        date: "1955",
+        description: "An outstanding person both on and off the field, Roberto Clemente won four batting titles and starred in the 1971 World Series. His untimely death came in 1972 where his plane crashed on its way to Nicaragua delivering goods to the country's residents."
     }, 
     {
         img: "earthquake.jpg",
-        title: "",
-        date: "May 1st, 1991",
-        description: "On this date, the speedy and always flashy Rickey Henderson breaks Lou Brock's stolen bases record of 938."
+        title: "Unexpected Intruder",
+        date: "October 17th, 1989",
+        description: "In the middle of their World Series matchup, the A's and the Giants had to stop their game as an earthquake shook the ground in Loma Prieta."
     }, 
     {
         img: "gibson.png",
         title: "The impossible has happened!",
         date: "October 15th, 1988",
         description: "With the fans cheering and on two bad legs, Kirk Gibson was called upon to save the game. Despite facing one of the greatest pitchers in baseball history in Dennis Eckersley, the stadium was filled with optimism. The Dodgers had leaned on Gibson all year but after coming in to pinch hit and with one strike left, things were not looking great for the him and the Dodgers. On the following pitch, however, Gibson pulls off the improbable game-winning 2-run home run to win it in game 1 for the Dodgers. The stadium roars as Gibson hobbles around the bases to get the Dodgers off to a great start in the World Series."
-    }, 
-    {
-        img: "ortizspeech.jpg",
-        title: '"This is Our **** City!"',
-        date: "April 16th, 2013",
-        description: "The day after the Boston Marathon bombing, David Ortiz led a rallying speech before the game sending chills to those in attendance."
-    },
+    }
 ];
 

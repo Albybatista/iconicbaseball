@@ -4,14 +4,11 @@
     <%- include('./partials/head.ejs') %>
 </head>
 <body>
-    <div class="alert alert-info" role="alert">
-        
-        <h1 class="text-center">Iconic Moments in MLB History</h1>
+   <div class="alert alert-info" role="alert">
+       <h1 class="text-center">Iconic Baseball Moments</h1>
         <%- include('./partials/nav.ejs') %>
     </div>
     <div class="container"></div>
-    
-
         <% for (let i = 0; i < baseballs.length; i++) { %>   
     <div class="card mb-3">
         <div class="view overlay zoom">
@@ -33,13 +30,15 @@
         &nbsp;
         &nbsp;
         <form action="/baseballs/<%=baseballs[i].id%>/edit">
-            <input type="submit" class="btn btn-primary" value="Edit"/>
+            <input type="submit" class="btn btn-secondary" value="Edit"/>
         </form>
         &nbsp;
         &nbsp;
         <form action="/baseballs/<%=baseballs[i].id%>/new">
             <input type="submit" class="btn btn-success" class="shadow-sm p-3 mb-5 bg-white rounded" value="Create" />
         </form>
+        <form action="/baseballs/<%=baseballs[i].id%>/landing">
+            <input type="submit" class="btn btn-primary" value="Main" />
             </div>
         </div>
     </div>
@@ -105,7 +104,7 @@
                         <a href="#!">Help</a>
                     </li>
                     <li>
-                        <a href="#!">FAQ</a>
+                        <a href="#!">Subscribe</a>
                     </li>
                     <li>
                         <a href="#!">Socials</a>
