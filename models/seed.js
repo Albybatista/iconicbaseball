@@ -44,7 +44,7 @@ module.exports = [
     },
     {
         img: "BloodySock.jpg",
-        title: "Is it Ketchup?",
+        title: "Is It Ketchup?",
         date: "October 19th, 2004",
         description: "In what became known as the 'bloody sock game', Curt Schilling pitches an amazing 7 innnings allowing just one run post ankle surgery. This turns out what would be the Red Sox's first championship in 86 years. There were rumors and speculation that that it might've been ketchup."
 
@@ -58,7 +58,7 @@ module.exports = [
     },
     {
         img: "altuve.jpg",
-        title: "Not My Buzz-- err, I mean shirt!",
+        title: "Not My Buzz-- err, I Mean Shirt!",
         date: "October 20th, 2017",
         description: "Jose Altuve hits a walk-off home run into orbit in order to send the Astros to the World Series. The footage that ensues after is later evidence of the astros using buzzers under their jerseys in a sign stealing scandal that became known as 'trashgate'. Altuve hugged his jersey tight and was adamant about not getting it torn off by teammates."
 
@@ -152,13 +152,13 @@ module.exports = [
     },
     {
         img: "rickey.jpg",
-        title: "Rickey Henderson steals the show!",
+        title: "Rickey Henderson Steals the Show!",
         date: "May 1st, 1991",
         description: "On this date, the speedy and always flashy Rickey Henderson breaks Lou Brock's stolen bases record of 938."
     },
     {
         img: "rose.jpeg",
-        title: "Did Pete Rose just hit big? You betcha'!",
+        title: "Did Pete Rose Just Hit Big? You Betcha'!",
         date: "August 10th, 1981",
         description: "On this date, Pete Rose broke Stan Musial's record for most hits by a National Leaguer. A controversial figure, Pete Rose remains permanently banned from baseball due to his gambling on games as a player. "
     }, 
@@ -184,11 +184,11 @@ module.exports = [
         img: "earthquake.jpg",
         title: "Unexpected Intruder",
         date: "October 17th, 1989",
-        description: "In the middle of their World Series matchup, the A's and the Giants had to stop their game as an earthquake shook the ground in Loma Prieta."
+        description: "Spoiler alert: the intruder here is mother nature.In the middle of their World Series matchup, the A's and the Giants had to stop their game as an earthquake shook the ground in Loma Prieta."
     }, 
     {
         img: "gibson.png",
-        title: "The impossible has happened!",
+        title: "The Impossible Has Happened!",
         date: "October 15th, 1988",
         description: "With the fans cheering and on two bad legs, Kirk Gibson was called upon to save the game. Despite facing one of the greatest pitchers in baseball history in Dennis Eckersley, the stadium was filled with optimism. The Dodgers had leaned on Gibson all year but after coming in to pinch hit and with one strike left, things were not looking great for the him and the Dodgers. On the following pitch, however, Gibson pulls off the improbable game-winning 2-run home run to win it in game 1 for the Dodgers. The stadium roars as Gibson hobbles around the bases to get the Dodgers off to a great start in the World Series."
     }
