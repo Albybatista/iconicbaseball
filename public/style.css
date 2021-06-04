@@ -46,22 +46,24 @@ nav,
     background: no-repeat center center fixed;
 }
 
-
 #newbtns, 
 #editbtns {
     display: flex;
     justify-content: flex-end;
 }
+
 .alert,
 .nav-link {
     background: #3a9888;
     color: white;
 }
+
 .card {
     display: flex;
     display: inline-block;
     justify-content: space-around;
 }
+
 .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -69,7 +71,7 @@ nav,
     background-size: cover;
 }
 
-.navbar-nav a{
+.navbar-nav a {
     font-family: ;
     font-size: 18px;
     font-weight: bold;
@@ -93,6 +95,7 @@ nav,
 
 .w-100{
     height: 100vh;
+    width: 100vw;
 }
 
 #lcont {
