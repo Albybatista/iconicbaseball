@@ -6,7 +6,7 @@ A multi-page CRUD application with multiple routes where users can post images t
 It contains a fully self-built database with images, dates, and descriptions that describe the events that occured. This app was built with JavaScript and EJS templating, Express, Node.js and MongoDB as the database. 
 
 ## Approach Taken
-I first focused on building out the backend in order to get the routes working and connecting to the database. Once that was done, I decided to start custom building the database and then pivoted to the frontend and styling features of the app.
+I first focused on building out the backend in order to get the routes working, connecting it to the database, and testing it out with Postman. Once that was done, I decided to start custom building the database fully and then pivoted to the frontend and styling features of the app.
 
 ### Next Steps
 
